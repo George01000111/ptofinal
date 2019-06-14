@@ -1,0 +1,14 @@
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\Dominio.Entidades.dll.config
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\Dominio.Entidades.dll
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\Dominio.Entidades.pdb
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\EntityFramework.dll
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\EntityFramework.SqlServer.dll
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\EntityFramework.xml
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\EntityFramework.SqlServer.xml
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\es\EntityFramework.resources.dll
+C:\PtoTrabajoFinal\Dominio.Entidades\bin\Release\es\EntityFramework.SqlServer.resources.dll
+C:\PtoTrabajoFinal\Dominio.Entidades\obj\Release\Dominio.Entidades.csprojAssemblyReference.cache
+C:\PtoTrabajoFinal\Dominio.Entidades\obj\Release\Dominio.Entidades.csproj.CoreCompileInputs.cache
+C:\PtoTrabajoFinal\Dominio.Entidades\obj\Release\Dominio.Entidades.csproj.CopyComplete
+C:\PtoTrabajoFinal\Dominio.Entidades\obj\Release\Dominio.Entidades.dll
+C:\PtoTrabajoFinal\Dominio.Entidades\obj\Release\Dominio.Entidades.pdb

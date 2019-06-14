@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Servicios.Interfaces.Carrito.Respuestas.CarritoRegistrado>
+
+<div id="table-container" class="table-responsive">
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreUsuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreProd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cantidad)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreProd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cantidad)
+            </td>
+
+
+            <td>
+                <a href="#" onclick="cibertec.getModal('@Url.Action("Edit",new { id = item.Id })'); return false;"
+                   data-toggle="modal" data-target="#modal-container" class="btn btn-warning btn-sm">
+                    <span class="glyphicon glyphicon-edit"></span> Incrementar Cantidad
+                </a>
+                <a href="#" onclick="cibertec.getModal('@Url.Action("Delete",new { id = item.Id })'); return false;"
+                   data-toggle="modal" data-target="#modal-container" class="btn btn-danger btn-sm">
+                    <span class="glyphicon glyphicon-trash"></span> Eliminar
+                </a>
+            </td>
+
+
+        </tr>
+        }
+
+    </table>
+</div>

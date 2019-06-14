@@ -1,0 +1,138 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout_Administrador.cshtml";
+}
+
+<!DOCTYPE HTML>
+<!--
+    Hielo by TEMPLATED
+    templated.co templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<body>
+
+    <section id="sedes">
+        <div class="head-prefooter">
+            <div style="width: 250px;float:left;">
+
+
+
+                <div class="sede-box">
+                    <h3>
+                        <i class="fa fa-building-o"></i>
+                        <a href="" class="sede-box-link" data-param="1084">Sede Surquillo</a>
+                    </h3>
+                    <br />
+                    <p>
+                        Av. Angamos Este 714<br />
+                        Telf: 208-3415 / 208-3410
+                    </p>
+                    <br>
+                    <p class="small">A 1 cuadra de la Vía Expresa</p>
+                </div>
+                <div class="sede-box">
+                    <h3><i class="fa fa-building-o"></i> <a href="" class="sede-box-link" data-param="1087">Sede Magdalena</a></h3><br />
+                    <p>
+                        Av. Brasil 3219<br />
+                        Telf: 463-4166 / 460-6075
+                    </p><br>
+                    <p class="small">A media cuadra de la Av. Javier Prado</p>
+                </div>
+                <div class="sede-box">
+                    <h3><i class="fa fa-building-o"></i> <a href="" class="sede-box-link" data-param="1086">Sede Ate</a></h3><br />
+                    <p>
+                        Av. Nicolás Ayllón 537<br />
+                        Telf: 351-4279
+                    </p><br>
+                    <p class="small">A dos cuadras de la Municipalidad Paradero Inca Kola</p>
+                </div>
+                <div class="sede-box">
+                    <h3><i class="fa fa-building-o"></i> <a href="" class="sede-box-link" data-param="1088">Sede Comas</a></h3><br />
+                    <p>
+                        Av. Universitaria 7861,<br />
+                        Urb. El Retablo / Telf: 636-0051
+                    </p><br>
+                    <p class="small">A 2 cuadras de la Av. Belaunde</p>
+                </div>
+                <div class="sede-box">
+                    <h3><i class="fa fa-building-o"></i> <a href="" class="sede-box-link" data-param="1090">Sede Miraflores</a></h3><br />
+                    <p>
+                        Av. Angamos Este 412<br />
+                        Telf: 445-0777
+                    </p><br>
+                </div>
+            </div>
+
+
+            <div style="width: 250px;float:left;">
+                <br>
+                <div class="sede-box">
+                    <div id="googleMap" style="width:300px;height:250px;"></div>
+                </div>
+
+
+                <div class="sede-box">
+                   
+                    <video preload="auto" width="300" height="250" id="video">
+                        <source src="~/videos/movie.mp4" type="video/mp4" />
+                        
+                        Tu navegador no soporta el elemento video
+                    </video>
+                    <div>
+                        <button class="btn btn-success" onclick="cibertec.video.play();">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </button>
+                        <button class="btn btn-success" onclick="cibertec.video.pause();">
+                            <i class="fa fa-pause" aria-hidden="true"></i>
+                        </button>
+                        <button class="btn btn-success" onclick="cibertec.video.stop();">
+                            <i class="fa fa-stop" aria-hidden="true"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+
+    @*<section>
+            <h3>Nuestros productos:</h3>
+        </section>
+        <section>
+            <h4>Curso de HTML5</h4>
+            <video preload="auto" width="320" height="240" id="video" controls>
+                <source src="videos/movie.mp4" type="video/mp4" />
+                Tu navegador no soporta el elemento video
+            </video>
+        </section>*@
+
+
+
+
+    <script src="~/App/index.js"></script>
+    <script src="~/App/video.js"></script>
+    <script src="~/App/map.js"></script>
+    <script src="https://use.fontawesome.com/3ec0969d1f.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSpmOLlU41YZYOOYuAsmmrFpCxflquD7g&callback=cibertec.getLocation"></script>
+
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="icons">
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            &copy; GalboTech . All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,15 @@
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\Infraestructura.Transformaciones.dll
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\Infraestructura.Transformaciones.pdb
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\AutoMapper.dll
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\Dominio.Entidades.dll
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\Servicios.Interfaces.dll
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\Dominio.Entidades.pdb
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\Dominio.Entidades.dll.config
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\Servicios.Interfaces.pdb
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\AutoMapper.xml
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.csprojAssemblyReference.cache
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.csproj.CoreCompileInputs.cache
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.csproj.CopyComplete
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.dll
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.pdb
+C:\PtoTrabajoFinal\Infraestructura.Transformaciones\bin\Debug\AutoMapper.pdb

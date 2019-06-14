@@ -1,0 +1,6 @@
+C:\PtoTrabajoFinal\Servicios.Interfaces\bin\Release\Servicios.Interfaces.dll
+C:\PtoTrabajoFinal\Servicios.Interfaces\bin\Release\Servicios.Interfaces.pdb
+C:\PtoTrabajoFinal\Servicios.Interfaces\obj\Release\Servicios.Interfaces.csprojAssemblyReference.cache
+C:\PtoTrabajoFinal\Servicios.Interfaces\obj\Release\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+C:\PtoTrabajoFinal\Servicios.Interfaces\obj\Release\Servicios.Interfaces.dll
+C:\PtoTrabajoFinal\Servicios.Interfaces\obj\Release\Servicios.Interfaces.pdb

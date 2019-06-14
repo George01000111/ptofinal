@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Servicios.Interfaces.Producto.Respuestas.ProductoRegistrado>
+
+
+
+<h2>Productos</h2>
+
+@Messages.AlertMessages()
+
+<p>
+    <a href="#" onclick="cibertec.getModal('@Url.Action("Create")'); return false;"
+       data-toggle="modal" data-target="#modal-container" class="btn btn-success btn-sm">
+        <span class="glyphicon glyphicon-plus"></span> Crear
+    </a>
+</p>
+
+<div class="pagination"></div>
+<div class="content"></div>
+<div class="pagination"></div>
+
+
+
+
+
+@Modal.GetModal("Productos")
+
+<script type="text/javascript" src="~/App/cibertec.js"></script>
+<script type="text/javascript" src="~/App/producto.js"></script>
+<script src="~/Scripts/jquery.bootpag.min.js"></script>

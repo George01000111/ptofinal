@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Servicios.Interfaces.Producto.Respuestas.ProductoRegistrado>
+
+
+
+
+<div id="table-container" class="table-responsive">
+
+    <table class="table">
+        <tr>
+            <th colspan="3" align="center">
+                Productos
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Precio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>*@
+
+                <td>
+                    <h5>Nombre:      @item.Nombre</h5>
+                    <p> Descripcion: @item.Descripcion </p>
+                    <p> Precio:      @item.Precio </p>
+                    @*@Html.DisplayFor(modelItem => item.ImagePath)*@
+
+
+
+                </td>
+                <td>
+                    <img src="~/images/@item.ImagePath" alt="" width="213" height="194" />
+                </td>
+
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Estado)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
+                    </td>*@
+
+                <td>
+                  
+                    <a href="#" onclick="cibertec.getModal('@Url.Action("detalle",new { id = item.Id })'); return false;"
+                       data-toggle="modal" data-target="#modal-container" class="btn btn-danger btn-sm">
+                        <span class="glyphicon glyphicon-trash"></span> Detalle
+                    </a>
+                </td>
+
+            </tr>
+        }
+
+    </table>
+</div>
